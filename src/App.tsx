@@ -142,6 +142,28 @@ export default function App() {
             <p id="about-paragraph-2">
               Antoine holds an MBA from INSEAD, with a concentration in Entrepreneurship, Private Equity, and Advanced Brand Management, and an Engineering Diploma in Telecommunications from Télécom SudParis. He is passionate about innovation and technology, with particular interest in artificial intelligence for industrial applications, sustainable marine technologies, and the commercialization of emerging technologies. He is currently attending MIT&apos;s Technology Leadership Program in Boston. As an active member of the INSEAD alumni community, he welcomes opportunities to collaborate on entrepreneurship, aviation, artificial intelligence, sustainability, venture capital, and international business development, and more broadly enjoys connecting entrepreneurs, investors, researchers, and business leaders across industries and geographies to accelerate innovation and create long-term value.
             </p>
+
+            <p id="about-paragraph-3">
+              As part of MIT&apos;s Technology Leadership Program, Antoine has been working in MIT&apos;s quantum computing lab, exploring how frontier technologies like quantum computing are reshaping what is possible in engineering and industry. For Antoine, time spent at the frontier of research is not separate from his business ventures — it is what keeps them there. Staying close to where science is advancing fastest is how he ensures the companies he builds remain at the leading edge, rather than following behind it.
+            </p>
+
+            <figure id="about-quantum-figure" className="pt-2 sm:pt-4 m-0 space-y-2">
+              <img
+                id="about-quantum-image"
+                src="/quantum.jpg"
+                alt="Antoine Kin at MIT's quantum computing lab during the Technology Leadership Program."
+                loading="lazy"
+                width="256"
+                height="341"
+                className="w-56 sm:w-64 aspect-[3/4] object-cover"
+              />
+              <figcaption
+                id="about-quantum-caption"
+                className="text-xs text-[#666666] tracking-wide"
+              >
+                Antoine Kin at MIT&apos;s quantum computing lab during the Technology Leadership Program.
+              </figcaption>
+            </figure>
           </div>
         </section>
 
@@ -251,6 +273,28 @@ export default function App() {
                 className="text-[#1B3A5C] hover:opacity-80 underline underline-offset-4 transition-opacity"
               >
                 LinkedIn
+              </a>
+            </p>
+            <p>
+              <a
+                id="contact-hstc"
+                href="https://www.hstc.uk"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#1B3A5C] hover:opacity-80 underline underline-offset-4 transition-opacity"
+              >
+                HSTC
+              </a>
+            </p>
+            <p>
+              <a
+                id="contact-ecm"
+                href="https://www.entrecieletmerhotel.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#1B3A5C] hover:opacity-80 underline underline-offset-4 transition-opacity"
+              >
+                Entre Ciel et Mer
               </a>
             </p>
           </div>
